@@ -47,9 +47,9 @@ export default function ContactSection() {
                         <div className="glass-card rounded-2xl p-6 space-y-5">
                             <h3 className="text-white font-bold text-lg mb-4">Direct Contact</h3>
                             {[
-                                { icon: Mail, label: 'Email', value: 'hello@raytech.io', href: 'mailto:hello@raytech.io' },
-                                { icon: Phone, label: 'Phone', value: '+1 (555) 000-0000', href: 'tel:+15550000000' },
-                                { icon: MapPin, label: 'Location', value: 'Global Remote · US & EU', href: null },
+                                { icon: Mail, label: 'Email', value: 'blueshine@raytech.io', href: 'mailto:blueshine@raytech.io' },
+                                { icon: Phone, label: 'Phone', value: '+919395001515', href: 'tel:+9395001515' },
+                                { icon: MapPin, label: 'Location', value: 'Delhi NCR', href: null },
                             ].map((item) => {
                                 const Icon = item.icon;
                                 return (
