@@ -1,0 +1,16 @@
+# Next.js Docker ignore
+node_modules
+.next
+.git
+.gitignore
+.dockerignore
+Dockerfile
+README.md
+build_log*.txt
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.idea
+.vscode
+*.sublime-*
+.DS_Store
